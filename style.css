@@ -2,7 +2,7 @@ html {
     font-size: 20px;
 }
 header {
-    background-image: url(img/lala.jpg);
+    background-image: url(img/lala.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +19,7 @@ header h1 {
 }
 
 header span {
-    text-shadow: 3px 3px 8px white;
+    text-shadow: 1px 5px 8px white;
 }
 
 
@@ -61,7 +61,7 @@ header span {
 }
 
 .pjs {
-    background: url(img/universo.jpg);
+    background: url(img/universo.png);
     background-size: contain;
     margin: 2rem auto;
 }
@@ -71,7 +71,7 @@ header span {
 }
 
 .proyectos {
-    background: url(img/universo.jpg);
+    background: url(img/universo.png);
     display: flex;
     flex-direction: column;
     align-items: center;
