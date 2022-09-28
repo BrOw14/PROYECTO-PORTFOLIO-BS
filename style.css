@@ -5,7 +5,7 @@ header {
     background-image: url(img/lala.png);
     background-position: center center;
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -93,4 +93,12 @@ header span {
 #svgs a:hover {
     transition: 0.5s;
     transform: scale(1.2);
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    header {
+
+    background-attachment: initial;
+    
+    }
 }
